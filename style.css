@@ -11,14 +11,33 @@ h1{
     
 }
 
+.col-lg-4{
+  text-align: center;
+}
+.intro-para{
+  text-align: center;
+}
+
+.intro-para h3{
+  font-size: 30px;
+}
+
+#bullet-table{
+  margin-top: 50px;
+}
+
 #navigation-bar{
     background-color: rgb(100, 156, 175);
     border-bottom: orangered solid 1px;
 }
 
-
 #summary{
     text-align: center;
+    margin-top: 35px;
+}
+
+#timeline-d{
+  margin-top: 20px;;
 }
 
 .flex-grid{
@@ -103,7 +122,6 @@ hr.new1{
 
 
 
-  
   /* The actual timeline (the vertical ruler) */
   .timeline {
     position: relative;

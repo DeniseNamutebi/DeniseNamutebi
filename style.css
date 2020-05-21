@@ -1,4 +1,6 @@
 body{
+    background-color: lightblue;
+    width: auto;
 }
 * {
     box-sizing: border-box;
@@ -8,13 +10,12 @@ h1{
     font-size: 80px;
     
 }
-#Jumbotron{
-    padding-bottom: 200px;
-}
 
 #navigation-bar{
-    background-color: blue;
+    background-color: rgb(100, 156, 175);
+    border-bottom: orangered solid 1px;
 }
+
 
 #summary{
     text-align: center;
@@ -23,28 +24,53 @@ h1{
 .flex-grid{
     display: flex;
 }
-
 #name-title{
-   margin-left: 20px;;
-   margin-top: 345px;
-   align-self: flex-end;
-   border: black solid 1px;
-   flex: 30%;
+  flex: 35%;
+  align-self: flex-end;
+}
+#name-title1{
+   padding-left: 20px;
+   margin-top: ;
+   border:orangered solid 1px;
+
 }
 
-
+hr.new1{
+  border: whitesmoke 0.4px solid;
+  
+}
 #intro{
    /* margin-bottom: 300px;
     text-align: justify;*/
     align-self: center; 
     padding: 50px;
-    flex: 25%;
+    flex: 20%;
     
 }
 
+#text-div{
+   
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-left: 3px;
+    border-left: orangered solid 2px;
+}
 #comp-image{
-    align-self: end;   
+    margin-right: 0;
+    margin-top: 10px;
+    align-self:flex-start;   
     flex: 30%;
+}
+
+#hey{
+  
+}
+#scroll{
+    margin-top: 100px;
+    writing-mode: vertical-rl;
+    padding-top: 10px;
+    color: whitesmoke;
+    
 }
 
 @media (max-width: 859px){

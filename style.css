@@ -2,15 +2,10 @@ html{
   scroll-behavior: smooth;
 }
 
-@font-face {
-  font-family: "gameplay";
-  src: url(...\fonts\Gameplay.ttf);
-  font-style: normal;
-  font-weight: 100;
-}
 
 body{
   background-image: linear-gradient(to bottom right,#a2c1c3, #a1b1c0);
+  font-family: 'Orbitron', sans-serif;
 }
 
 .navbar-brand {
@@ -28,6 +23,24 @@ h1{
   
 }
 
+h2{
+  font-family: 'Bungee Shade', cursive;
+}
+
+#bullet-table h2{
+  font-family: 'Orbitron', sans-serif;;
+}
+
+#bullet-table p{
+  padding: 8px;
+  border: orangered solid 1px;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.icon{
+  margin-bottom: 20px;
+}
 .col-lg-4{
 text-align: center;
 }
@@ -48,6 +61,9 @@ margin-top: 50px;
   border-bottom: orangered solid 1px;
 }
 
+#mid-section{
+  margin-top: 60px;
+}
 #summary{
   text-align: center;
   margin-top: 35px;
@@ -66,9 +82,8 @@ align-self: flex-end;
 }
 #name-title1{
  padding-left: 20px;
- padding-bottom: 100px;
+ padding-bottom: 80px;
  border:orangered solid 1px;
- font-family: gameplay;
  font-weight: 100;
 }
 
@@ -94,14 +109,13 @@ border: whitesmoke 0.4px solid;
 }
 #comp-image{
   margin-right: 0;
-  margin-top: 10px;
+  margin-top: ;
   align-self:flex-start;   
   flex: 30%;
+  overflow: hidden;
+  object-fit: scale-down;
 }
 
-#hey{
-
-}
 #scroll{
   margin-top: 100px;
   writing-mode: vertical-rl;
@@ -120,11 +134,15 @@ border: whitesmoke 0.4px solid;
   .col{
       width: 100%;
   } 
-  #name-title{
+  #name-title1{
       margin-top: 10px;
       border: 0;
-      font-size: 50px;
+      transform: scale(0.50);
       margin-left: 0;
+      padding-top: 20px;
+      padding-left: 15px;
+      padding-bottom: 10px;
+      border:orangered solid 1px;
   }
   
   #intro{
@@ -134,12 +152,14 @@ border: whitesmoke 0.4px solid;
       display:none;
   }
 
-  #name-title1{
-    padding-left: 20px;
-    border:orangered solid 1px;
-   
-   }
+  
+ #scroll{
+  display: none;
+ }
 
+ #summary{
+   margin-top: 0px;
+ }
   
 }
 

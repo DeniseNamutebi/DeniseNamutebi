@@ -7,33 +7,38 @@
 
     <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <!--CSS stylesheet & js-->
+  <!--CSS stylesheet -->
   <link rel="stylesheet" href="style.css" type="text/css">
+  
   <!--aos-->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!--fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+
     <title>Hello, world!</title>
   </head>
   <body>   
      <!--Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+    <nav id="navigation" class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">D.A.N</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+  <div class="collapse navbar-collapse justify-content-stretch" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#">Timeline</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="#">Skills</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a class="nav-link" href="#">Contact</a>
       </li>
     </ul>
     </div>
@@ -41,76 +46,119 @@
   
 
      <!--Intro Page-->
-     <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-      <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h1 class="display-4 font-weight-normal">Denise Namutebi</h1>
-        <p class="lead font-weight-normal">This is a filler line.</p>
-        
+    <div id="top-section" class="flex-grid">
+      <div class="row"></div>
+        <div id="name-title" class="col" data-aos="zoom-in-right" >
+          <div id="name-title1">
+          <h1>DENISE_ <br>AKIIKI_ NAMUTEBI_</h1>
+        </div>
       </div>
-      <div class="product-device shadow-sm d-none d-md-block"></div>
-      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-     </div>
-
-     <!--Jumbotron-->
-     <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Fluid jumbotron</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-      </div>
-     </div>
+        <div id="intro" class="col" data-aos="zoom-in-down">
+          <div id="text-div"><h6>A Bit About Me</h6>
+            <hr class="new1"> 
+            <p>I'm a 22 year old aspiring software engineer.<br>
+              
+            </p>
+          </div>
+          <div id="scroll" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <p>Scroll Down ➪</p>
+          </div>
+        </div>
+        <div id="image-box" class="col" data-aos="zoom-in-left">
+          <div id="comp-image">
+          <img src="img\computercode.jpg" height="500" width="300"> 
+          </div>
+        </div>
+    </div>
 
      <!--Timeline section-->
-     <section class="block-content t-block-teal l-block-spacing">
-      <div class="l-contained">
-        <header class="heading-group">
-          <h2>Timeline</h2>
-          <p class="subtitle">
-            What is this?
-          </p>
-        </header>
-        <ul class="timeline-list">
-          <li>
-              <div class="content">
-            <h3>A timeline?</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quam felis, rutrum nec enim non, sodales facilisis purus. Vestibulum viverra egestas ipsum eget commodo. Nullam aliquet lorem vitae nulla dictum vestibulum sed quis tellus. Sed diam diam, facilisis tincidunt volutpat nec, auctor quis magna. Proin sed nunc iaculis ipsum scelerisque tincidunt. Cras eleifend leo tellus, fermentum finibus tortor fringilla eu.
-            </p>
-            </div>
-          </li>
-          <li>
-              <div class="content">
-            <h3>A railway map?</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quam felis, rutrum nec enim non, sodales facilisis purus. Vestibulum viverra egestas ipsum eget commodo. Nullam aliquet lorem vitae nulla dictum vestibulum sed quis tellus. Sed diam diam, facilisis tincidunt volutpat nec, auctor quis magna. Proin sed nunc iaculis ipsum scelerisque tincidunt. Cras eleifend leo tellus, fermentum finibus tortor fringilla eu.
-            </p>
-            </div>
-          </li>
-          <li>
-              <div class="content">
-            <h3>Random dots?</h3>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quam felis, rutrum nec enim non, sodales facilisis purus. Vestibulum viverra egestas ipsum eget commodo. Nullam aliquet lorem vitae nulla dictum vestibulum sed quis tellus. Sed diam diam, facilisis tincidunt volutpat nec, auctor quis magna. Proin sed nunc iaculis ipsum scelerisque tincidunt. Cras eleifend leo tellus, fermentum finibus tortor fringilla eu.
-            </p>
-            </div>
-          </li>
-          <li>
-              <div class="content">
-            <h3>Absolutely nothing.</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quam felis, rutrum nec enim non, sodales facilisis purus. Vestibulum viverra egestas ipsum eget commodo. Nullam aliquet lorem vitae nulla dictum vestibulum sed quis tellus. Sed diam diam, facilisis tincidunt volutpat nec, auctor quis magna. Proin sed nunc iaculis ipsum scelerisque tincidunt. Cras eleifend leo tellus, fermentum finibus tortor fringilla eu.
-            </p>
-            </div>
-          </li>
-        </ul>
+     <div id="mid-section" class="flex-grid">
+      <div id="summary" class="container">
+      <div class="intro-para" > 
+        <h3>Summary</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley </p>
+      </div> 
+      <div id="timeline-d" class="timeline">
+        <div class="containert left" data-aos="fade-up">
+          <div class="content">
+            <h2>2017</h2>
+            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+        <div class="containert right"  data-aos="fade-right">
+          <div class="content">
+            <h2>2016</h2>
+            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+        <div class="containert left" data-aos="fade-left">
+          <div class="content">
+            <h2>2015</h2>
+            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+        <div class="containert right" data-aos="fade-down-right">
+          <div class="content">
+            <h2>2012</h2>
+            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+        <div class="containert left" data-aos="fade-down">
+          <div class="content">
+            <h2>2011</h2>
+            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+        <div class="containert right" data-aos="fade-up-left">
+          <div class="content">
+            <h2>2007</h2>
+            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
       </div>
-    </section>
+      </div>
+     </div>
+
+     
      <!--Three colomn section-->
+     <div id="third-page" class="container-fluid padding text-center">
+        <div id="bullet-table" class="container">
+          <div class="row">
+              <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                <h2>Heading</h2>
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+              </div>
+              <div class="col-lg-4">
+                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" fill="img/yoga.png"xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                  <h2>Heading</h2>
+                  <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+              </div>
+              <div class="col-lg-4">
+                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                  <h2>Heading</h2>
+                  <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+              </div>
+              </div>
+            </div>
+     </div>
 
      <!--Connect section-->
+     <div class="container-fluid padding">
+     <div class="row text-center padding">
+        <div class="col-12">
+          <h2>Connect</h2>
+        </div>
+        <div class="col-12 social padding">
+          <a href="#">LinkedIn</a>
+          <a href="#">Gmail</a>
+          <a href="#">Github</a>
+        </div>
+    </div>
+    </div>
 
      <!--Footer-->
-
+   
 
 
 

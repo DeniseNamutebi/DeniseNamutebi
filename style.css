@@ -115,6 +115,11 @@ border: whitesmoke 0.4px solid;
   padding-left: 10px;
   border-left: orangered solid 2px;
 }
+
+#text-div p{
+  font-size: 11px;
+}
+
 #comp-image{
   margin-right: 0;
   align-self:flex-start;   

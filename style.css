@@ -184,6 +184,10 @@ border: whitesmoke 0.4px solid;
  #summary{
    margin-top: 0px;
  }
+ 
+ #timeline-d h2{
+   overflow-wrap: break-word;
+ }
   
 }
 
@@ -199,6 +203,7 @@ border: whitesmoke 0.4px solid;
   justify-content: center;
   align-items: center;
 }
+
 
 
 

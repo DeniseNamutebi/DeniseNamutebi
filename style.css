@@ -116,7 +116,6 @@ border: whitesmoke 0.4px solid;
 }
 #comp-image{
   margin-right: 0;
-  margin-top: ;
   align-self:flex-start;   
   flex: 30%;
   overflow: hidden;

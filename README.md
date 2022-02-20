@@ -13,7 +13,7 @@
 
 
 
- Checkout a client website :arrow_right:[Jenga Mtoto Foundation](https://www.jengamtotofoundation.com):arrow_left:
+ Checkout a client website [Jenga Mtoto Foundation](https://www.jengamtotofoundation.com):arrow_left:
 
 
 

@@ -1,8 +1,8 @@
 
-##### Hi :wave: 
+ ##### Hi :wave: 
   
   
-I am a programmer based in London. 
+ I am a programmer based in London. 
 
 
 * :woman_technologist:I currently work as a software engineer and freelance web dev
@@ -13,10 +13,10 @@ I am a programmer based in London.
 
 
 
-Checkout a client website :arrow_right:[Jenga Mtoto Foundation](https://www.jengamtotofoundation.com):arrow_left:
+ Checkout a client website :arrow_right:[Jenga Mtoto Foundation](https://www.jengamtotofoundation.com):arrow_left:
 
 
 
-Connect with me on [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/denise-namutebi-49798b163/)
+ Connect with me on [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/denise-namutebi-49798b163/)
 
 

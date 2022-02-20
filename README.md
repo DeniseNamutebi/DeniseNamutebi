@@ -7,8 +7,9 @@ I am a programmer based in London.
 
 * :woman_technologist:I currently work as a software engineer and freelance web dev
 * :heart:My passion is frontend development
-* :gear:Javascript is my main language and love using ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+* :gear:Javascript is my main language and love using React
 * :dart:My goal is to become a full-stack dev who makes the world a better place:earth_africa:
+
 
 
 
